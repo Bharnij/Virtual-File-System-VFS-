@@ -16,7 +16,10 @@ typedef struct {
 
 } VFS;
 
+//mount function
 int vfs_mount(const char *filename, VFS *vfs);
+
+//unmount function
 void vfs_unmount(VFS *vfs);
 
 
