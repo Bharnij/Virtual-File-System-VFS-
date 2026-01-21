@@ -1,3 +1,5 @@
+// It reads and validates a Superblock
+
 #include <stdio.h>
 
 #include "vfs.h"
